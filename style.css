@@ -7,14 +7,19 @@ body{
     padding: 30px;
 }
 
+.note{
+    display: flex;
+    align-items: center;
+    color: #7a7979;
+}
+
 .note p{
     font-family: 'BYekan';
     font-size: 25px;
-    color: #7a7979;
-    margin-right: 6px;
+    margin-right: 15px;
 }
 
-.note i{
+.note .fa-bell{
     font-size: 27px;
 }
 
