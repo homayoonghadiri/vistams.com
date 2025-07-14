@@ -7,13 +7,15 @@ body{
     padding: 30px;
 }
 
-.note{
+.note p{
     font-family: 'BYekan';
     font-size: 25px;
+    color: #7a7979;
+    margin-right: 6px;
 }
 
 .note i{
-    font-size: 20px;
+    font-size: 27px;
 }
 
 img{
