@@ -21,7 +21,10 @@ body{
 
 .note .fa-bell{
     font-size: 27px;
+    animation: ring 1s ease-in-out infinite;
+    transform-origin: top center;
 }
+
 
 img{
     width: 100%;
@@ -29,3 +32,15 @@ img{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+@keyframes ring {
+      0%   { transform: rotate(0deg); }
+      10%  { transform: rotate(15deg); }
+      20%  { transform: rotate(-10deg); }
+      30%  { transform: rotate(7deg); }
+      40%  { transform: rotate(-5deg); }
+      50%  { transform: rotate(3deg); }
+      60%  { transform: rotate(-2deg); }
+      70%  { transform: rotate(1deg); }
+      100% { transform: rotate(0deg); }
+    }
